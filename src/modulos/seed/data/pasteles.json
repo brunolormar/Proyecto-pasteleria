@@ -1,0 +1,66 @@
+[
+  {
+    "Pastelid": "1111",
+    "creador": "3",
+    "nombre": "Pastel de chocolate",
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/banker.jpg",
+    "Description": "Es un pastel de chocolate",
+    "precio":15
+  },
+  {
+    "Pastelid": "2222",
+    "creador": "1",
+    "nombre": "Pastel de cream",
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/banker.jpg",
+    "Description": "Es un pastel de cream",
+    "precio":15
+  },
+  {
+    "Pastelid": "3333",
+    "creador": "5",
+    "nombre": "Pastel de fresa",
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/banker.jpg",
+    "Description": "Es un pastel de fresa",
+    "precio":15
+  },
+  {
+    "Pastelid": "4444",
+    "creador": "3",
+    "nombre": "Pastel de nata",
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/banker.jpg",
+    "Description": "Es un pastel de nata",
+    "precio":15
+  },
+  {
+    "Pastelid": "5555",
+    "creador": "2",
+    "nombre": "Pastel de arandano",
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/banker.jpg",
+    "Description": "Es un pastel de arandano",
+    "precio":15
+  },
+  {
+    "Pastelid": "6666",
+    "creador": "2",
+    "nombre": "Pastel de merengue",
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/banker.jpg",
+    "Description": "Es un pastel de merengue",
+    "precio":15
+  },
+  {
+    "Pastelid": "7777",
+    "creador": "4",
+    "nombre": "Pastel de naranja",
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/banker.jpg",
+    "Description": "Es un pastel de naranja",
+    "precio":15
+  },
+  {
+    "Pastelid": "8888",
+    "creador": "5",
+    "nombre": "Pastel de limon",
+    "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/banker.jpg",
+    "Description": "Es un pastel de limon",
+    "precio":15
+  }
+]
