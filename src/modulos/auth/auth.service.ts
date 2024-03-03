@@ -86,9 +86,8 @@ export class AuthService {
         //rol: user.roles[0],
          //create: user.createsAt
       });
-      return {
-        token: accessToken
-      }
+      return accessToken
+      
     } catch(error){
       console.log(error);
       throw new InternalServerErrorException('Error al crear el token');
