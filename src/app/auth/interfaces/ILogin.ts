@@ -1,4 +1,4 @@
-import { IUser } from "src/interfaces/IUser";
+import { IUser } from "src/app/interfaces/IUser";
 
 export interface ILogin {
     email: string;
