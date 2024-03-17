@@ -10,7 +10,7 @@ import { CreadoresService } from '../creadores/creadores.service';
 export class PastelesService {
   constructor(
     @InjectRepository(Pastele)
-    private readonly pastelRepository: Repository<Pastele>,
+    private readonly pastelesRepository: Repository<Pastele>,
     private creadoresService: CreadoresService
   ) {}
 
@@ -18,11 +18,11 @@ export class PastelesService {
   async create(createPasteleDto: CreatePasteleDto) {
     try {
       const {creador, ...campos } = createPasteleDto;
-      const pastel = this.pastelRepository.create({...campos});
+      const pastel = this.pastelesRepository.create({...campos});
       const creadorobj = await this.creadoresService.findOne(creador);
       pastel.creador = creadorobj; //direccion del objeto creador relacionado
       console.log(pastel);
-      await this.pastelRepository.save(pastel);
+      await this.pastelesRepository.save(pastel);
 
       return{
         status: 200,
@@ -40,7 +40,7 @@ export class PastelesService {
   }
 
   findOne(Pastelid: string) {
-    const creador= this.pastelRepository.findOne({
+    const creador= this.pastelesRepository.findOne({
       where:{
         Pastelid
       },
@@ -62,7 +62,7 @@ export class PastelesService {
   }
 
   async deleteAllPasteles(){
-    const query = this.pastelRepository.createQueryBuilder('pastel');
+    const query = this.pastelesRepository.createQueryBuilder('pastel');
     try{
       return await query
         .delete()
