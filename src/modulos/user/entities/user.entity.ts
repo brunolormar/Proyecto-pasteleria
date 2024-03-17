@@ -25,7 +25,7 @@ export class User {
     username: string;   
 
     @Column('varchar', {
-        name: 'username',
+        name: 'password',
         nullable: false,
         unique: false,
     })

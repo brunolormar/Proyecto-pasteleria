@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { useForm, SubmitHandler } from "react-hook-form"
 import { ILogin } from "../interfaces/ILogin";
 import apiAuth from "../model/apiAuth";
-import { useRouter } from 'next/navigation';
+//import { useRouter } from 'next/navigation';
 import { Link } from "@nextui-org/react";
 
 type FormData = {
@@ -13,7 +13,7 @@ type FormData = {
 }
 
 const LoginForm = () => {
-  const router= useRouter()
+  //const router= useRouter()
   const { register, handleSubmit } = useForm<ILogin>()
   // const [ showError, setShowError ] = useState(false);
 
@@ -32,7 +32,7 @@ const LoginForm = () => {
         Cookies.set('email', user.email);
         console.log('--->', Cookies.get('email'));
         // router.replace('/public/pasteles');
-        router.replace('/public/pasteles');
+        //router.replace('/public/pasteles');
 
       } catch (error){
         console.log(error);

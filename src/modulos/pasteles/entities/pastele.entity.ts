@@ -29,7 +29,7 @@ export class Pastele {
 
     @ManyToOne(
         () => Creadore,
-        (creador) => creador.pastel,
+        (creador) => creador.pasteles,
         {cascade: true}
     )
     creador?: Creadore

@@ -4,7 +4,6 @@ import { UpdateCreadoreDto } from './dto/update-creadore.dto';
 import { Creadore } from './entities/creadore.entity';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-
 @Injectable()
 export class CreadoresService {
   constructor(
@@ -30,7 +29,7 @@ export class CreadoresService {
   }
 
   findAll() {
-    return `This action returns all creador`;
+    return `This action returns all creadores`;
   }
 
   findOne(id: string) {
@@ -44,11 +43,11 @@ export class CreadoresService {
 
   @Patch()
   update(id: number, updateCreadoreDto: UpdateCreadoreDto) {
-    return `This action updates a #${id} creador`;
+    return `This action updates a #${id} creadore`;
   }
 
   remove(id: number) {
-    return `This action removes a #${id} creador`;
+    return `This action removes a #${id} creadore`;
   }
 
   async deleteAllCreadores(){

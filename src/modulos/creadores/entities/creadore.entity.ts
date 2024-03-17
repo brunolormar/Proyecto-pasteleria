@@ -13,5 +13,5 @@ export class Creadore {
         (pastel) => pastel.creador,
         { eager: true }
     )
-    pastel?: Pastele[] 
+    pasteles?: Pastele[]
 }
